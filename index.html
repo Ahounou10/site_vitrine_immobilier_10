@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImmoCôte – Votre partenaire immobilier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">🏠 ImmoCôte</div>
+    <nav id="menu">
+      <a href="#">Accueil</a>
+      <a href="#biens">Nos biens</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div id="toggle">&#9776;</div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Votre futur logement vous attend</h1>
+      <p>Maisons, appartements et terrains disponibles dans toute la Côte d’Ivoire.</p>
+      <a href="#biens" class="btn">Découvrir nos offres</a>
+    </div>
+  </section>
+
+  <!-- BIENS -->
+  <section id="biens" class="biens">
+    <h2>Nos biens récents</h2>
+    <div class="filtre-box">
+      <label for="filtre">Filtrer par type :</label>
+      <select id="filtre">
+        <option value="tous">Tous</option>
+        <option value="maison">Maison</option>
+        <option value="appartement">Appartement</option>
+        <option value="terrain">Terrain</option>
+      </select>
+    </div>
+
+    <div class="container">
+      <div class="carte" data-type="maison">
+        <img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=800" alt="Maison à Abidjan">
+        <div class="info">
+          <h3>Maison à Abidjan</h3>
+          <p>4 pièces – 45 000 000 FCFA</p>
+          <a href="#contact" class="btn-small">Contacter</a>
+        </div>
+      </div>
+
+      <div class="carte" data-type="appartement">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800" alt="Appartement à Yamoussoukro">
+        <div class="info">
+          <h3>Appartement à Yamoussoukro</h3>
+          <p>3 pièces – 25 000 000 FCFA</p>
+          <a href="#contact" class="btn-small">Contacter</a>
+        </div>
+      </div>
+
+      <div class="carte" data-type="terrain">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800" alt="Terrain à Bouaké">
+        <div class="info">
+          <h3>Terrain à Bouaké</h3>
+          <p>500 m² – 8 000 000 FCFA</p>
+          <a href="#contact" class="btn-small">Contacter</a>
+        </div>
+      </div>
+
+      <div class="carte" data-type="maison">
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800" alt="Villa à San Pedro">
+        <div class="info">
+          <h3>Villa à San Pedro</h3>
+          <p>6 pièces – 60 000 000 FCFA</p>
+          <a href="#contact" class="btn-small">Contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section id="apropos">
+    <h2>À propos de ImmoCôte</h2>
+    <p>ImmoCôte est une agence immobilière basée en Côte d’Ivoire, spécialisée dans la vente et la location
+      de biens résidentiels et commerciaux. Notre mission est d’aider chaque client à trouver un logement
+      sûr, confortable et adapté à ses besoins. Nous travaillons avec transparence et passion pour vous offrir
+      le meilleur du marché immobilier ivoirien.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>📞 +225 07 09 12 34 56 / 01 52 78 90 33</p>
+    <p>📧 contact@immocote.ci</p>
+
+    <!-- Réseaux sociaux -->
+    <div class="socials">
+      <a href="https://wa.me/2250709123456" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 ImmoCôte | Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
